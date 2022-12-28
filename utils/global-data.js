@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'Stranger';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Chilling';
+    : 'average developer';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'i love potatoes.';
+    : 'All rights reserved.';
 
   return {
     name,
